@@ -14,16 +14,11 @@ Kode program ini mempunyai 1 class yaitu Petshop. Petshop memiliki 4 buah atribu
    - Program dimulai dengan mengimpor file `Petshop.cpp`, yang berisi definisi kelas `Petshop`.
    - Menggunakan `vector<Petshop>` untuk menyimpan data produk petshop. `vector` adalah struktur data dinamis yang memungkinkan penambahan dan penghapusan elemen secara efisien.
 
-
-![image](https://github.com/user-attachments/assets/6212be6a-dc10-45c1-b7de-9b3a918f6dbe)
-
 2. **Data Dummy:**
    - Dua data dummy ditambahkan ke dalam vector untuk memudahkan pengujian aplikasi:
      - Produk 1: ID = 1, Nama = "Whiskas", Kategori = "Makanan_Kucing", Harga = 50000
      - Produk 2: ID = 2, Nama = "Pedigree", Kategori = "Makanan_Anjing", Harga = 75000
-
-
-![image](https://github.com/user-attachments/assets/45c0fcc8-2260-4d29-b955-b49f40a78f2d)
+![image](https://github.com/user-attachments/assets/6212be6a-dc10-45c1-b7de-9b3a918f6dbe)
 
 3. **Menu Utama:**
    - Program menampilkan menu utama yang memungkinkan pengguna untuk memilih aksi yang ingin dilakukan. Pengguna dapat memilih dari 6 opsi:
@@ -33,6 +28,8 @@ Kode program ini mempunyai 1 class yaitu Petshop. Petshop memiliki 4 buah atribu
      4. Hapus Data Petshop
      5. Cari Data Petshop
      6. Keluar
+![image](https://github.com/user-attachments/assets/45c0fcc8-2260-4d29-b955-b49f40a78f2d)
+
 
 ## Input dan Output
 
