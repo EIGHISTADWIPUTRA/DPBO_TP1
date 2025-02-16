@@ -60,8 +60,8 @@ Kode program ini mempunyai 1 class yaitu Petshop. Petshop memiliki 4 buah atribu
        - ![image](https://github.com/user-attachments/assets/6c3c7998-79f2-468c-af63-cd6b0dec1bc5)
     - Setelah data diubah:
        - ![image](https://github.com/user-attachments/assets/58b3a85c-38a2-4b9e-b301-02360fed6128)
-    - Jika ID produk tidak ditemukan:
-      - ![image](https://github.com/user-attachments/assets/73351881-0a50-4b0a-899d-b5d1b0f55c5e)
+  - Jika ID produk tidak ditemukan:
+    - ![image](https://github.com/user-attachments/assets/73351881-0a50-4b0a-899d-b5d1b0f55c5e)
 
 - **Input:**
   - ID Produk yang ingin diubah
@@ -73,19 +73,35 @@ Kode program ini mempunyai 1 class yaitu Petshop. Petshop memiliki 4 buah atribu
   - Menampilkan pesan "Produk berhasil diubah!" jika produk dengan ID yang dimasukkan ditemukan dan berhasil diubah. Jika tidak ditemukan, menampilkan pesan "Produk dengan ID [ID] tidak ditemukan."
 
 ### 4. Hapus Data Petshop
+- **Tangkapan Layar:**
+  - JIka Data Ditemukan
+    - Sebelum data dihapus:
+       - ![image](https://github.com/user-attachments/assets/8e5bdbe9-e7fc-44dc-8a59-b81e35b6d6d9)
+    - Setelah data dihapus:
+       - ![image](https://github.com/user-attachments/assets/634a4a88-d503-457a-a7a8-da6ef20a7ef8)
+  - Jika ID produk tidak ditemukan:
+    - ![image](https://github.com/user-attachments/assets/505b7d1f-76ff-4ef9-bda2-2eebe1a997ce)
+
 - **Input:**
   - ID Produk yang ingin dihapus
 - **Output:**
   - Menampilkan pesan "Produk berhasil dihapus!" jika produk dengan ID yang dimasukkan ditemukan dan berhasil dihapus. Jika tidak ditemukan, menampilkan pesan "Produk dengan ID [ID] tidak ditemukan."
 
 ### 5. Cari Data Petshop
+- **Tangkapan Layar:**
+  - JIka Data Ditemukan
+       - ![image](https://github.com/user-attachments/assets/36bec693-5a7c-4c85-bc9a-227c325bbead)
+  - Jika nama produk tidak ditemukan:
+       - ![image](https://github.com/user-attachments/assets/56cacf2c-40cb-4795-ba21-5eba106805e5)
+ 
 - **Input:**
   - Nama Produk yang ingin dicari
 - **Output:**
   - Menampilkan informasi produk (ID, Nama, Kategori, Harga) jika produk dengan nama yang dimasukkan ditemukan. Jika tidak ditemukan, menampilkan pesan "Produk dengan nama [nama] tidak ditemukan."
 
 ### 6. Keluar
-- **Input:**
-  - Tidak ada input dari pengguna.
+- **Tangkapan Layar:**
+   - ![image](https://github.com/user-attachments/assets/82a8172b-f050-4ed1-bbe7-9f9d5e4d19a9)
+
 - **Output:**
   - Menampilkan pesan "Terimakasih Telah Menggunakan Aplikasi ini" dan keluar dari program.
