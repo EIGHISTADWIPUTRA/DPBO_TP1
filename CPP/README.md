@@ -54,6 +54,15 @@ Kode program ini mempunyai 1 class yaitu Petshop. Petshop memiliki 4 buah atribu
   - Menampilkan semua data produk yang ada dalam vector. Jika vector kosong, menampilkan pesan "Data kosong".
 
 ### 3. Ubah Data Petshop
+- **Tangkapan Layar:**
+  - JIka Data Ditemukan
+    Sebelum data diubah:
+      ![image](https://github.com/user-attachments/assets/6c3c7998-79f2-468c-af63-cd6b0dec1bc5)
+    Setelah data diubah:
+      ![image](https://github.com/user-attachments/assets/58b3a85c-38a2-4b9e-b301-02360fed6128)
+    Jika ID produk tidak ditemukan:
+      ![image](https://github.com/user-attachments/assets/73351881-0a50-4b0a-899d-b5d1b0f55c5e)
+
 - **Input:**
   - ID Produk yang ingin diubah
   - ID Baru
