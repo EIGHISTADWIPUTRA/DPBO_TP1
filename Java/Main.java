@@ -56,7 +56,80 @@ public class Main {
                     }
                     break;
 
-                // Implementasi untuk pilihan 3, 4, dan 5 dapat ditambahkan di sini
+                case 3: // Ubah Data
+                    System.out.print("Masukkan ID Produk yang Ingin Diubah: ");
+                    int find_id = scanner.nextInt();
+                    boolean found = false;
+
+                    for (int i = 0; i < data.size(); i++) {
+                        if (data.get(i).getID() == find_id) {
+                            found = true;
+                            System.out.print("Masukkan ID Baru: ");
+                            int newID = scanner.nextInt();
+                            scanner.nextLine(); // Membersihkan buffer
+                            System.out.print("Masukkan Nama Baru: ");
+                            String newName = scanner.nextLine();
+                            System.out.print("Masukkan Kategori Baru: ");
+                            String newCategory = scanner.nextLine();
+                            System.out.print("Masukkan Harga Baru: ");
+                            int newPrice = scanner.nextInt();
+
+                            // Mengubah data produk
+                            data.get(i).setID(newID);
+                            data.get(i).setNama(newName);
+                            data.get(i).setKategori(newCategory);
+                            data.get(i).setHarga(newPrice);
+
+                            System.out.println("Produk berhasil diubah!");
+                            break;
+                        }
+                    }
+
+                    if (!found) {
+                        System.out.println("Produk dengan ID " + find_id + " tidak ditemukan.");
+                    }
+                    break;
+
+                case 4: // Hapus Data
+                    System.out.print("Masukkan ID Produk yang Ingin Dihapus: ");
+                    int delete_id = scanner.nextInt();
+                    found = false;
+
+                    for (int i = 0; i < data.size(); i++) {
+                        if (data.get(i).getID() == delete_id) {
+                            found = true;
+                            data.remove(i); // Menghapus objek dari ArrayList
+                            System.out.println("Produk berhasil dihapus!");
+                            break;
+                        }
+                    }
+
+                    if (!found) {
+                        System.out.println("Produk dengan ID " + delete_id + " tidak ditemukan.");
+                    }
+                    break;
+
+                case 5: // Cari Data
+                    System.out.print("Masukkan Nama Produk yang Ingin Dicari: ");
+                    scanner.nextLine(); // Membersihkan buffer
+                    String find_name = scanner.nextLine();
+                    found = false;
+
+                    for (Petshop petshop : data) {
+                        if (petshop.getNama().equalsIgnoreCase(find_name)) {
+                            found = true;
+                            System.out.println("ID: " + petshop.getID());
+                            System.out.println("Nama: " + petshop.getNama());
+                            System.out.println("Kategori: " + petshop.getKategori());
+                            System.out.println("Harga: " + petshop.getHarga());
+                            System.out.println("-------------------------");
+                        }
+                    }
+
+                    if (!found) {
+                        System.out.println("Produk dengan nama " + find_name + " tidak ditemukan.");
+                    }
+                    break;
 
                 case 6: // Keluar
                     System.out.println("Terimakasih Telah Menggunakan Aplikasi ini");
